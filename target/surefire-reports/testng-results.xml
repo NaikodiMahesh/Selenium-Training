@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-24T00:08:36 IST" name="Suite" finished-at="2022-11-24T00:09:10 IST" duration-ms="34258">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T00:08:36 IST" name="Test" finished-at="2022-11-24T00:09:10 IST" duration-ms="34258">
+      <class name="Day3.SmokeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.SmokeTest@3c407114]" started-at="2022-11-24T00:08:36 IST" name="setup" finished-at="2022-11-24T00:08:43 IST" duration-ms="7132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Url()[pri:0, instance:Day3.SmokeTest@3c407114]" started-at="2022-11-24T00:08:43 IST" name="Url" finished-at="2022-11-24T00:08:43 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.SmokeTest@3c407114]" started-at="2022-11-24T00:08:43 IST" name="tearnow" finished-at="2022-11-24T00:08:44 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+      </class> <!-- Day3.SmokeTest -->
+      <class name="Day3.MyFirstTestNgTest3">
+        <test-method signature="login()[pri:0, instance:Day3.MyFirstTestNgTest3@68999068]" started-at="2022-11-24T00:08:44 IST" name="login" finished-at="2022-11-24T00:08:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logoutOnMethods()[pri:0, instance:Day3.MyFirstTestNgTest3@68999068]" started-at="2022-11-24T00:08:51 IST" name="logoutOnMethods" finished-at="2022-11-24T00:08:51 IST" depends-on-methods="Day3.MyFirstTestNgTest3.login" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnMethods -->
+      </class> <!-- Day3.MyFirstTestNgTest3 -->
+      <class name="Day3.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:36 IST" name="setup" finished-at="2022-11-24T00:08:43 IST" duration-ms="7097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Invalidpassuser()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:43 IST" name="Invalidpassuser" finished-at="2022-11-24T00:08:45 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidpassuser -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:45 IST" name="tearnow" finished-at="2022-11-24T00:08:45 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:45 IST" name="setup" finished-at="2022-11-24T00:08:50 IST" duration-ms="5375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidpass()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:50 IST" name="invalidpass" finished-at="2022-11-24T00:08:52 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidpass -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:52 IST" name="tearnow" finished-at="2022-11-24T00:08:52 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:52 IST" name="setup" finished-at="2022-11-24T00:08:56 IST" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invaliduser()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:56 IST" name="invaliduser" finished-at="2022-11-24T00:08:57 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaliduser -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:57 IST" name="tearnow" finished-at="2022-11-24T00:08:58 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:08:58 IST" name="setup" finished-at="2022-11-24T00:09:02 IST" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validuserpass()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:09:02 IST" name="validuserpass" finished-at="2022-11-24T00:09:06 IST" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validuserpass -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.LoginTest@41fbdac4]" started-at="2022-11-24T00:09:06 IST" name="tearnow" finished-at="2022-11-24T00:09:06 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+      </class> <!-- Day3.LoginTest -->
+      <class name="day4.LoginDataProvider">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:44 IST" name="setup" finished-at="2022-11-24T00:08:48 IST" duration-ms="3815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:48 IST" name="logintest" data-provider="testdata" finished-at="2022-11-24T00:08:50 IST" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samplemukesh1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mukesh1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:50 IST" name="tearnow" finished-at="2022-11-24T00:08:51 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:51 IST" name="setup" finished-at="2022-11-24T00:08:54 IST" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:54 IST" name="logintest" data-provider="testdata" finished-at="2022-11-24T00:08:56 IST" duration-ms="2303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samplemukesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mukesh1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:56 IST" name="tearnow" finished-at="2022-11-24T00:08:56 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:56 IST" name="setup" finished-at="2022-11-24T00:08:59 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:08:59 IST" name="logintest" data-provider="testdata" finished-at="2022-11-24T00:09:05 IST" duration-ms="5730" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samplemukesh2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mukesh1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Sign out')]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84f586b3ced25f43fdcd817bf91a7dd9, findElement {using=xpath, value=//button[contains(text(),'Sign out')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\naimahes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53083/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84f586b3ced25f43fdcd817bf91a7dd9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Sign out')]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84f586b3ced25f43fdcd817bf91a7dd9, findElement {using=xpath, value=//button[contains(text(),'Sign out')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\naimahes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53083/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84f586b3ced25f43fdcd817bf91a7dd9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at day4.LoginDataProvider.logintest(LoginDataProvider.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:09:05 IST" name="tearnow" finished-at="2022-11-24T00:09:05 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:09:05 IST" name="setup" finished-at="2022-11-24T00:09:08 IST" duration-ms="2931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:09:08 IST" name="logintest" data-provider="testdata" finished-at="2022-11-24T00:09:10 IST" duration-ms="2408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mukesh1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:day4.LoginDataProvider@5bd03f44]" started-at="2022-11-24T00:09:10 IST" name="tearnow" finished-at="2022-11-24T00:09:10 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+      </class> <!-- day4.LoginDataProvider -->
+      <class name="Day3.MyFirstTestNG">
+        <test-method signature="login()[pri:1, instance:Day3.MyFirstTestNG@61df66b6]" started-at="2022-11-24T00:08:52 IST" name="login" finished-at="2022-11-24T00:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createAccount()[pri:2, instance:Day3.MyFirstTestNG@61df66b6]" started-at="2022-11-24T00:08:52 IST" name="createAccount" finished-at="2022-11-24T00:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="deleteAccount()[pri:3, instance:Day3.MyFirstTestNG@61df66b6]" started-at="2022-11-24T00:08:52 IST" name="deleteAccount" finished-at="2022-11-24T00:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+        <test-method signature="logout()[pri:4, instance:Day3.MyFirstTestNG@61df66b6]" started-at="2022-11-24T00:08:52 IST" name="logout" finished-at="2022-11-24T00:08:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Day3.MyFirstTestNG -->
+      <class name="day4.ReadingExcel">
+        <test-method signature="testdata()[pri:0, instance:day4.ReadingExcel@50eac852]" started-at="2022-11-24T00:08:51 IST" name="testdata" finished-at="2022-11-24T00:08:52 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+      </class> <!-- day4.ReadingExcel -->
+      <class name="Day3.NewUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day3.NewUser@291ae]" started-at="2022-11-24T00:08:36 IST" name="setup" finished-at="2022-11-24T00:08:43 IST" duration-ms="6956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createuser()[pri:0, instance:Day3.NewUser@291ae]" started-at="2022-11-24T00:08:43 IST" name="createuser" finished-at="2022-11-24T00:08:51 IST" duration-ms="7567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method is-config="true" signature="tearnow()[pri:0, instance:Day3.NewUser@291ae]" started-at="2022-11-24T00:08:51 IST" name="tearnow" finished-at="2022-11-24T00:08:51 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearnow -->
+      </class> <!-- Day3.NewUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
